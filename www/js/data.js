@@ -222,13 +222,13 @@ sensationApp.factory('NewsData', function(){
 sensationApp.factory('PostsData', function(){
     
     /* (For DEMO purposes) Local JSON data */
-    var data = { url: 'json/wordpress.json' };
+    // var data = { url: 'json/wordpress.json' };
     
     /* Set your URL as you can see in the following example */
     // var data = { url: 'YourWordpressURL/?json=get_recent_posts' };
     
     /* With user-friendly permalinks configured */
-    // var data = { url: 'YourWordpressURL/api/get_recent_posts' };
+    var data = { url: 'kingstakh.by/api/get_recent_posts' };
     
     return data;
 });
